@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D35828E1F9884C20076FD7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D35828D1F9884C20076FD7C /* main.m */; };
+		7D3582911F9884C20076FD7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3582901F9884C20076FD7C /* AppDelegate.m */; };
+		7D3582941F9884C20076FD7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3582931F9884C20076FD7C /* ViewController.m */; };
+		7D3582971F9884C20076FD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D3582951F9884C20076FD7C /* Main.storyboard */; };
+		7D3582991F9884C20076FD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3582981F9884C20076FD7C /* Assets.xcassets */; };
+		7D35829C1F9884C20076FD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D35829A1F9884C20076FD7C /* LaunchScreen.storyboard */; };
+		7D3582A71F9884C20076FD7C /* SendEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3582A61F9884C20076FD7C /* SendEmailTests.m */; };
+		7D3582B21F9884C20076FD7C /* SendEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3582B11F9884C20076FD7C /* SendEmailUITests.m */; };
+		7D3582C21F9884D20076FD7C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3582C01F9884D20076FD7C /* Messages.framework */; };
+		7D3582C31F9884D20076FD7C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3582C11F9884D20076FD7C /* MessageUI.framework */; };
+		7D3582C51F9884DD0076FD7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3582C41F9884DD0076FD7C /* UIKit.framework */; };
+		7D3582C91F98D1E80076FD7C /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3582C81F98D1E80076FD7C /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D3582A31F9884C20076FD7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3582811F9884C20076FD7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3582881F9884C20076FD7C;
+			remoteInfo = SendEmail;
+		};
+		7D3582AE1F9884C20076FD7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3582811F9884C20076FD7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3582881F9884C20076FD7C;
+			remoteInfo = SendEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D3582891F9884C20076FD7C /* SendEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D35828D1F9884C20076FD7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D35828F1F9884C20076FD7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D3582901F9884C20076FD7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D3582921F9884C20076FD7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D3582931F9884C20076FD7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D3582961F9884C20076FD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D3582981F9884C20076FD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D35829B1F9884C20076FD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D35829D1F9884C20076FD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3582A21F9884C20076FD7C /* SendEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3582A61F9884C20076FD7C /* SendEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendEmailTests.m; sourceTree = "<group>"; };
+		7D3582A81F9884C20076FD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3582AD1F9884C20076FD7C /* SendEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3582B11F9884C20076FD7C /* SendEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendEmailUITests.m; sourceTree = "<group>"; };
+		7D3582B31F9884C20076FD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3582C01F9884D20076FD7C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		7D3582C11F9884D20076FD7C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7D3582C41F9884DD0076FD7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D3582C81F98D1E80076FD7C /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D3582861F9884C20076FD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3582C51F9884DD0076FD7C /* UIKit.framework in Frameworks */,
+				7D3582C21F9884D20076FD7C /* Messages.framework in Frameworks */,
+				7D3582C31F9884D20076FD7C /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35829F1F9884C20076FD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3582AA1F9884C20076FD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D3582801F9884C20076FD7C = {
+			isa = PBXGroup;
+			children = (
+				7D35828B1F9884C20076FD7C /* SendEmail */,
+				7D3582A51F9884C20076FD7C /* SendEmailTests */,
+				7D3582B01F9884C20076FD7C /* SendEmailUITests */,
+				7D35828A1F9884C20076FD7C /* Products */,
+				7D3582BF1F9884D20076FD7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D35828A1F9884C20076FD7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D3582891F9884C20076FD7C /* SendEmail.app */,
+				7D3582A21F9884C20076FD7C /* SendEmailTests.xctest */,
+				7D3582AD1F9884C20076FD7C /* SendEmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D35828B1F9884C20076FD7C /* SendEmail */ = {
+			isa = PBXGroup;
+			children = (
+				7D35828F1F9884C20076FD7C /* AppDelegate.h */,
+				7D3582901F9884C20076FD7C /* AppDelegate.m */,
+				7D3582921F9884C20076FD7C /* ViewController.h */,
+				7D3582931F9884C20076FD7C /* ViewController.m */,
+				7D3582C81F98D1E80076FD7C /* test.png */,
+				7D3582951F9884C20076FD7C /* Main.storyboard */,
+				7D3582981F9884C20076FD7C /* Assets.xcassets */,
+				7D35829A1F9884C20076FD7C /* LaunchScreen.storyboard */,
+				7D35829D1F9884C20076FD7C /* Info.plist */,
+				7D35828C1F9884C20076FD7C /* Supporting Files */,
+			);
+			path = SendEmail;
+			sourceTree = "<group>";
+		};
+		7D35828C1F9884C20076FD7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D35828D1F9884C20076FD7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D3582A51F9884C20076FD7C /* SendEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D3582A61F9884C20076FD7C /* SendEmailTests.m */,
+				7D3582A81F9884C20076FD7C /* Info.plist */,
+			);
+			path = SendEmailTests;
+			sourceTree = "<group>";
+		};
+		7D3582B01F9884C20076FD7C /* SendEmailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D3582B11F9884C20076FD7C /* SendEmailUITests.m */,
+				7D3582B31F9884C20076FD7C /* Info.plist */,
+			);
+			path = SendEmailUITests;
+			sourceTree = "<group>";
+		};
+		7D3582BF1F9884D20076FD7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D3582C41F9884DD0076FD7C /* UIKit.framework */,
+				7D3582C01F9884D20076FD7C /* Messages.framework */,
+				7D3582C11F9884D20076FD7C /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D3582881F9884C20076FD7C /* SendEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3582B61F9884C20076FD7C /* Build configuration list for PBXNativeTarget "SendEmail" */;
+			buildPhases = (
+				7D3582851F9884C20076FD7C /* Sources */,
+				7D3582861F9884C20076FD7C /* Frameworks */,
+				7D3582871F9884C20076FD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendEmail;
+			productName = SendEmail;
+			productReference = 7D3582891F9884C20076FD7C /* SendEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D3582A11F9884C20076FD7C /* SendEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3582B91F9884C20076FD7C /* Build configuration list for PBXNativeTarget "SendEmailTests" */;
+			buildPhases = (
+				7D35829E1F9884C20076FD7C /* Sources */,
+				7D35829F1F9884C20076FD7C /* Frameworks */,
+				7D3582A01F9884C20076FD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D3582A41F9884C20076FD7C /* PBXTargetDependency */,
+			);
+			name = SendEmailTests;
+			productName = SendEmailTests;
+			productReference = 7D3582A21F9884C20076FD7C /* SendEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D3582AC1F9884C20076FD7C /* SendEmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3582BC1F9884C20076FD7C /* Build configuration list for PBXNativeTarget "SendEmailUITests" */;
+			buildPhases = (
+				7D3582A91F9884C20076FD7C /* Sources */,
+				7D3582AA1F9884C20076FD7C /* Frameworks */,
+				7D3582AB1F9884C20076FD7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D3582AF1F9884C20076FD7C /* PBXTargetDependency */,
+			);
+			name = SendEmailUITests;
+			productName = SendEmailUITests;
+			productReference = 7D3582AD1F9884C20076FD7C /* SendEmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D3582811F9884C20076FD7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "曲正平";
+				TargetAttributes = {
+					7D3582881F9884C20076FD7C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EF554AT4PV;
+						ProvisioningStyle = Automatic;
+					};
+					7D3582A11F9884C20076FD7C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CE3L359PW4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D3582881F9884C20076FD7C;
+					};
+					7D3582AC1F9884C20076FD7C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CE3L359PW4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D3582881F9884C20076FD7C;
+					};
+				};
+			};
+			buildConfigurationList = 7D3582841F9884C20076FD7C /* Build configuration list for PBXProject "SendEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D3582801F9884C20076FD7C;
+			productRefGroup = 7D35828A1F9884C20076FD7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D3582881F9884C20076FD7C /* SendEmail */,
+				7D3582A11F9884C20076FD7C /* SendEmailTests */,
+				7D3582AC1F9884C20076FD7C /* SendEmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D3582871F9884C20076FD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D35829C1F9884C20076FD7C /* LaunchScreen.storyboard in Resources */,
+				7D3582991F9884C20076FD7C /* Assets.xcassets in Resources */,
+				7D3582971F9884C20076FD7C /* Main.storyboard in Resources */,
+				7D3582C91F98D1E80076FD7C /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3582A01F9884C20076FD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3582AB1F9884C20076FD7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D3582851F9884C20076FD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3582941F9884C20076FD7C /* ViewController.m in Sources */,
+				7D3582911F9884C20076FD7C /* AppDelegate.m in Sources */,
+				7D35828E1F9884C20076FD7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D35829E1F9884C20076FD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3582A71F9884C20076FD7C /* SendEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3582A91F9884C20076FD7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3582B21F9884C20076FD7C /* SendEmailUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D3582A41F9884C20076FD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3582881F9884C20076FD7C /* SendEmail */;
+			targetProxy = 7D3582A31F9884C20076FD7C /* PBXContainerItemProxy */;
+		};
+		7D3582AF1F9884C20076FD7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3582881F9884C20076FD7C /* SendEmail */;
+			targetProxy = 7D3582AE1F9884C20076FD7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D3582951F9884C20076FD7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D3582961F9884C20076FD7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D35829A1F9884C20076FD7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D35829B1F9884C20076FD7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D3582B41F9884C20076FD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D3582B51F9884C20076FD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D3582B71F9884C20076FD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF554AT4PV;
+				INFOPLIST_FILE = SendEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zp.iphone.SendEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D3582B81F9884C20076FD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF554AT4PV;
+				INFOPLIST_FILE = SendEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zp.iphone.SendEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D3582BA1F9884C20076FD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CE3L359PW4;
+				INFOPLIST_FILE = SendEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zp.iphone.SendEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendEmail.app/SendEmail";
+			};
+			name = Debug;
+		};
+		7D3582BB1F9884C20076FD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CE3L359PW4;
+				INFOPLIST_FILE = SendEmailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zp.iphone.SendEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendEmail.app/SendEmail";
+			};
+			name = Release;
+		};
+		7D3582BD1F9884C20076FD7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CE3L359PW4;
+				INFOPLIST_FILE = SendEmailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zp.iphone.SendEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SendEmail;
+			};
+			name = Debug;
+		};
+		7D3582BE1F9884C20076FD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CE3L359PW4;
+				INFOPLIST_FILE = SendEmailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zp.iphone.SendEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SendEmail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D3582841F9884C20076FD7C /* Build configuration list for PBXProject "SendEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3582B41F9884C20076FD7C /* Debug */,
+				7D3582B51F9884C20076FD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3582B61F9884C20076FD7C /* Build configuration list for PBXNativeTarget "SendEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3582B71F9884C20076FD7C /* Debug */,
+				7D3582B81F9884C20076FD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3582B91F9884C20076FD7C /* Build configuration list for PBXNativeTarget "SendEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3582BA1F9884C20076FD7C /* Debug */,
+				7D3582BB1F9884C20076FD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3582BC1F9884C20076FD7C /* Build configuration list for PBXNativeTarget "SendEmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3582BD1F9884C20076FD7C /* Debug */,
+				7D3582BE1F9884C20076FD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D3582811F9884C20076FD7C /* Project object */;
+}
