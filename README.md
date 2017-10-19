@@ -1,5 +1,6 @@
 # sendEmail
-iOS  调用系统邮箱发邮件（带附件）
+
+#iOS  调用系统邮箱发邮件（带附件）
 if(![MFMailComposeViewController canSendMail]) return;
     MFMailComposeViewController *vc = [[MFMailComposeViewController alloc] init];
     //设置邮件主题
